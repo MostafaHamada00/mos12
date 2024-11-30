@@ -1,0 +1,282 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* السكشن الاول */
+.one{
+    height: 820px;
+    background-image: url("blue_bg.png");
+    background-size: cover;
+    
+}
+.divhead{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.kudzoka{
+    margin-top: 20px;
+}
+.firstlink{
+    text-decoration-line: none;
+    color: black;
+    margin: 20px;
+    margin-top: 50px;
+}
+.firstlink:hover{
+    transform: scale(1.2);
+}
+.login{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid white;
+    margin-top: 40px;
+    margin-right: 70px;
+    cursor: pointer;
+}
+.login:hover{
+    transform: scale(1.2);
+}
+.firsth1{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.span1{
+    color: rgb(148, 32, 184);
+}
+.firsttext{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.imagetext{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    margin-top: 250px;
+    margin-left: 100px;
+}
+.imagssss{
+    margin-top: 100px;
+    margin-right: 50px;
+}
+.landing{
+    position: relative;
+}
+.maskgroup{
+    position: absolute;
+    right: 280px;
+    top: 300px;
+}
+.clouds{
+    position: absolute;
+    right: 70px;
+    top: 600px;
+}
+.waves{
+    position: absolute;
+    right: 280px;
+    top: 650px;
+    color: blue;
+}
+/* السكشن التاني */
+.two{
+    position: relative;
+}
+.secondsec{
+    position: absolute;
+    left: 300px;
+    top: 50px;
+}
+.three{
+    height: 1500px;
+}
+.group140{
+    position: absolute;
+    top: 130px;
+    left: 200px;
+}
+.superh1{
+    position: absolute;
+    top: 270px;
+    left: 180px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+.span2{
+    margin-left: 15px;
+}
+.supertext{
+    position: absolute;
+    left: 160px;
+    top: 300px;
+}
+.three{
+    height: 1500px;
+}
+.group152{
+    position: absolute;
+    top: 280px;
+    left: 690px;
+}
+.realh1{
+    position: absolute;
+    top: 420px;
+    left: 675px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+.span3{
+    margin-left: 35px;
+}
+.realtext{
+    position: absolute;
+    top: 450px;
+    left: 630px;
+}
+.group1020{
+    position: absolute;
+    top: 550px;
+    left: 1050px;
+
+}
+.discountsh1{
+    position: absolute;
+    top: 660px;
+    left: 1090px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+.span4{
+    margin-left: 13px;
+}
+.discounttext{
+    position: absolute;
+    top: 690px;
+    left: 1000px;
+}
+.kodzokalogo{
+    position: absolute;
+    top: 500px;
+    left: 150px;
+}
+.whyhudzokap{
+    position: absolute;
+    top: 580px;
+    left: 230px;
+    color: white;
+}
+.kudzokah1{
+    position: absolute;
+    top: 610px;
+    left: 230px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.three{
+    position: relative;
+}
+.group1006{
+    position: absolute;
+    top: 800px;
+    left: 300px;
+}
+.group1007{
+    position: absolute;
+    top: 720px;
+    left: 600px;
+}
+.group1008{
+    position: absolute;
+    top: 820px;
+    left: 1100px;
+}
+.roundh1{
+    position: absolute;
+    top: 1050px;
+    left:  630px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.span5{
+    margin-left: 50px;
+}
+.roundtext{
+    position: absolute;
+    top: 1100px;
+    left: 680px;
+    font-size: 20px;
+}
+.group1131{
+    position: relative;
+}
+.endimg{
+    position: absolute;
+    top: 2760px;
+    left: 760px;
+}
+.appstore{
+    position: absolute;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    left: 100px;
+    top: 2980px
+    
+}
+.span6{
+    margin-left: 5px;
+}
+.appstore:hover{
+    transform: scaleX(1.1);
+}
+.span7{
+    margin-left: 5px;
+}
+.playstore{
+    position: absolute;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    top: 2980px;
+    left: 250px;
+}
+.playstore:hover{
+    transform: scale(1.1);
+}
+.insta{
+    position: absolute;
+    top: 3070px;
+    left: 100px;
+}
+.wats{
+    position: absolute;
+    top: 3070px;
+    left: 150px;
+}
+.face{
+    position: absolute;
+    top: 3070px;
+    left: 200px;
+}
+.endlink{
+    position: absolute;
+    top: 3130px;
+    left: 80px;
+    
+}
+.lik{
+    margin: 20px;
+    text-decoration-line: none;
+    color: white;
+}
+.lik:hover{
+    transform: scale(1.2);
+}
